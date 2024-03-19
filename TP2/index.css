@@ -1,0 +1,70 @@
+h1{
+    color:blue;
+    size: 10px;
+}
+h1:hover{
+    color:gray;
+    cursor:pointer;
+    font-weight: 600;
+}
+p{
+    color:red;
+    size:8px;
+}
+p:hover{
+    color:aqua;
+    cursor:grab;
+    font-weight: 100;
+}
+span{
+    color:green;
+    size:15px;
+}
+span:hover{
+    color:blue;
+    cursor: copy;
+    font-weight: bold;
+}
+#im{
+    width:300px;
+    height:500px;
+    box-shadow: rgba(212, 20, 20, 0.24) 0px 3px 8px;
+}
+.divhome{
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.divprincipal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.h2divhome{
+    margin-left: 3rem;
+    gap: 20px;
+}
+.h2divhome:hover{
+    color:red;
+    font-weight: bold;
+    cursor: pointer;
+}
+.list{
+    list-style: none;
+    gap:10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color: green;
+}
+.im1{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    gap:10px;
+    border-radius:50%;
+}
